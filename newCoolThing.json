@@ -1,1 +1,17 @@
-someJSON for ya
+someJSON for yaname = {name: spot,legs: 4}name = {
+	"name": "spot",
+	"legs": 4
+	}
+	name = {
+	"name": "spot",
+	"legs": 4
+	}
+	name = {
+	"name": "spot",
+	"legs": 4
+    };
+    
+	const name = {
+	"name": "spot",
+	"legs": 4
+	};

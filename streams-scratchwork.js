@@ -55,6 +55,13 @@ writeStream.write('NEW SHIT');
 console.log('new shit was logged')
 // writeStream.write('NEWER SHIT');
 // writeStream.write('NEWEST SHIT');
-newWriteStream.write('someJSON for ya');
+newWriteStream.write('\n\t');
+newWriteStream.write('const name = {');
+newWriteStream.write('\n\t');
+newWriteStream.write('"name": "spot",');
+newWriteStream.write('\n\t');
+newWriteStream.write('"legs": 4');
+newWriteStream.write('\n\t');
+newWriteStream.write('};');
 writeStream.end();
 newWriteStream.end();
