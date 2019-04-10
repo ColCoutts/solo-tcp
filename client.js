@@ -1,11 +1,4 @@
 const net = require('net');
-// const fs = require('fs');
-
-// const writeStream = fs.createWriteStream('./2_tcp.md');
-// const client = net.createConnection(3000, '127.0.0.1', () => {
-//     console.log('i am connected client side');
-//     client.write('hello i am a client');
-// });
 
 const readLine = require('readline');
 
