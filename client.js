@@ -15,7 +15,6 @@ const rl = readLine.createInterface({
     prompt: '> '
 });
 
-// rl.prompt();
 const client = net.createConnection(3000, '127.0.0.1', () => {
     console.log('i am connected client side');
     rl.prompt();
@@ -23,7 +22,6 @@ const client = net.createConnection(3000, '127.0.0.1', () => {
         client.write(line);
         rl.prompt();
     });
-    // client.write('hello i am a client');
 });
 
 client.on('data', data => {
